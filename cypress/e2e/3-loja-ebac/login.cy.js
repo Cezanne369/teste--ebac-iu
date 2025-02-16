@@ -1,5 +1,7 @@
 ///<reference types="cypress"/>
 
+const { it } = require("mocha")
+
 describe('funcionalidade: Login', () => {
 
     it('Deve fazer login com sucesso', () => {
@@ -11,4 +13,4 @@ describe('funcionalidade: Login', () => {
         cy.get('.woocommerce-MyAccount-content > :nth-child(2)').should('contain', 'Olá, saopaulojean74')
 
     })
-})
+});
