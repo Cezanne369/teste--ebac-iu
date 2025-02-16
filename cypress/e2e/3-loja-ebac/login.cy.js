@@ -13,4 +13,4 @@ describe('funcionalidade: Login', () => {
         cy.get('.woocommerce-MyAccount-content > :nth-child(2)').should('contain', 'Olá, saopaulojean74')
 
     })
-});
+})
